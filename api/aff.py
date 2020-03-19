@@ -1,6 +1,6 @@
 #全局变量定义
-subip = 'http://127.0.0.1:10010'      # 默认subip是 subconverter 后台端口，在config/perf.ini 中指定，或者docker的端口指定。
-apiip = 'http://127.0.0.1:10086'      #apiip 是 suweb 前端端口
+subip = 'http://subnode.redyun.tech:10010'      # 默认subip是 subconverter 后台端口，在config/perf.ini 中指定，或者docker的端口指定。
+apiip = 'http://subnode.redyun.tech:10086'      #apiip 是 suweb 前端端口
 passwd = 'admin'                      #passwd 是 admin系统的密码
 #proxygroup  用于节点分组，当您修改pref.ini的 [ruleset] 需要改变以下默认值以一一对应，否则会导致节点分组报错。
 proxygroup= '@🔰 节点选择`select{groupname}[]DIRECT'\
